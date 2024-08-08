@@ -1,10 +1,9 @@
-import React from 'react'
-import Navigation from './customer/components/Navigation/Navigation.jsx'
-import HomePage from './customer/pages/HomePage/HomePage.jsx'
-import Footer from './customer/components/Footer/Footer.jsx'
-
-import Category from './customer/components/category/Category.jsx'
-import About from './customer/components/About/About.jsx'
+import React from 'react';
+import Navigation from './customer/components/Navigation/Navigation.jsx';
+import HomePage from './customer/pages/HomePage/HomePage.jsx';
+import Category from './customer/components/category/Category.jsx';
+import About from './customer/components/About/About.jsx';
+import Footer from './customer/components/Footer/Footer.jsx';
 
 const App = () => {
   return (
@@ -13,12 +12,11 @@ const App = () => {
       <div>
         <HomePage />
         <Category />
-       <About />
+        <About />
       </div>
       <Footer />
-  </div>
-
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -412,7 +412,7 @@
 // }
 
 import { Fragment, useState } from 'react';
-import Image1 from '../../assets/images/girl.jpg';
+import Image1 from '../../assets/images/girl.jpg'
 import Image2 from '../../assets/images/girl1.jpg';
 import Image3 from '../../assets/images/boy1.jpg';
 import Image4 from '../../assets/images/boy2.jpg';
