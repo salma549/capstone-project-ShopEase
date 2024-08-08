@@ -1131,7 +1131,7 @@
 
 
 import React from 'react';
-import { MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, ShoppingBagIcon, HeartIcon } from '@heroicons/react/24/outline';
 import Avatar from '@mui/material/Avatar';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -1160,11 +1160,11 @@ export default function Header() {
               {/* Logo with Men and Women links */}
               <div className="flex items-center space-x-8">
                 <a href="/" className="text-xl font-bold text-gray-800">
-                <div className="flex-1 flex items-center">
-        <h1 className="text-2xl md:text-3xl font-signature ml-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
-          ShopEase
-        </h1>
-      </div>
+                  <div className="flex-1 flex items-center">
+                    <h1 className="text-2xl md:text-3xl font-signature ml-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
+                      ShopEase
+                    </h1>
+                  </div>
                 </a>
                 
                 <a href="/women" className="text-sm font-medium text-white hover:text-blue-600">
@@ -1194,12 +1194,18 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Account, Cart, and Avatar */}
+              {/* Account, Wishlist, Cart, and Avatar */}
               <div className="flex items-center lg:ml-6">
                 {/* Cart Icon */}
                 <a href="#" className="p-2 text-gray-400 hover:text-gray-600">
                   <span className="sr-only">View cart</span>
                   <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
+                </a>
+
+                {/* Wishlist Icon */}
+                <a href="#" className="p-2 text-gray-400 hover:text-red-600">
+                  <span className="sr-only">View wishlist</span>
+                  <HeartIcon className="h-6 w-6" aria-hidden="true" />
                 </a>
 
                 {/* Avatar and Dropdown */}
