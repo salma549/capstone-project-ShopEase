@@ -1,0 +1,12 @@
+.main-carousel {
+    width: 100%; /* Ensures the carousel covers the full width of the screen */
+    height: 500px; /* Adjust this value to your preferred height */
+    overflow: hidden; /* Ensures content doesn't overflow the container */
+  
+}
+
+.main-carousel img {
+    width: 100%; /* Image covers the full width of the carousel */
+    height: 100%; /* Image covers the full height of the carousel */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}

@@ -9,7 +9,7 @@ const HomeSectionCard = ({ product }) => {
         <img
           src={product.image}
           alt="Square 1"
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-top hover:cursor-pointer  overflow-hidden shadow-lg transform transition duration-500 shadow-lg-2xl"
         />
       </div>
       <div className="p-4">

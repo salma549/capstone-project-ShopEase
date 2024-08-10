@@ -6,7 +6,7 @@ import video2 from '../category/videos/bg.mp4'; // Replace with your video path
 const Category = () => {
   return (
  
-    <div name='category' className="bg-white  mt-32  flex flex-col items-center p-6">
+    <div name='category' className="bg-white  mt-22  flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold mb-2 animated-text">FashionMatch Shopping Experience</h1>
       <p className="text-2xl mb-5">Tailored Shopping Experience for Men and Women</p>
       <div className="flex w-full space-x-4 mb-5">

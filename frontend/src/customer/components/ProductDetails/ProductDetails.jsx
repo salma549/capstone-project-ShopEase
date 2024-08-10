@@ -219,9 +219,9 @@ export default function ProductDetails() {
                   </fieldset>
                 </div>
 
-                <Button
+                <Button 
                   variant="contained"
-                  sx={{ px: "2rem", py: "1rem", bgcolor: "#9155fd" }}
+                  sx={{ px: "2rem", py: "1rem", bgcolor: "#9155fd" , marginTop:"20px" }}
                 >
                   Add To Cart
                 </Button>
@@ -299,6 +299,62 @@ export default function ProductDetails() {
                         variant="determinate"
                         value={40}
                         color="success"
+                      />
+                    </Grid>
+                  </Grid>
+
+                  <Grid container alignItems="center" gap={2}>
+                    <Grid item xs={2}>
+                      <p>Very Good</p>
+                    </Grid>
+                    <Grid item xs={7}>
+                      <LinearProgress
+                        sx={{ bgcolor: "#d0d0d0", borderRadius: 4, height: 7 }}
+                        variant="determinate"
+                        value={30}
+                        color="success"
+                      />
+                    </Grid>
+                  </Grid>
+
+                  <Grid container alignItems="center" gap={2}>
+                    <Grid item xs={2}>
+                      <p>Good</p>
+                    </Grid>
+                    <Grid item xs={7}>
+                      <LinearProgress
+                        sx={{ bgcolor: "#d0d0d0", borderRadius: 4, height: 7 }}
+                        variant="determinate"
+                        value={25}
+                        color="success"
+                      />
+                    </Grid>
+                  </Grid>
+
+                  <Grid container alignItems="center" gap={2}>
+                    <Grid item xs={2}>
+                      <p>Average</p>
+                    </Grid>
+                    <Grid item xs={7}>
+                      <LinearProgress
+                        sx={{ bgcolor: "#d0d0d0", borderRadius: 4, height: 7 }}
+                        variant="determinate"
+                        value={25}
+                        color="warning"
+                      />
+                    </Grid>
+                  </Grid>
+
+                  <Grid container alignItems="center" gap={2}>
+                    <Grid item xs={2}>
+                      <p>Poor</p>
+                    </Grid>
+                    <Grid item xs={7}>
+                      <LinearProgress
+                        sx={{ bgcolor: "#d0d0d0", borderRadius: 4, height: 7 }}
+                        variant="determinate"
+                        value={20}
+                        color="error"
                       />
                     </Grid>
                   </Grid>

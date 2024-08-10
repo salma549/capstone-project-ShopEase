@@ -6,8 +6,12 @@ import { womens } from '../../../Data/womens'; // Ensure this path is correct
 const HomePage = () => {
   return (
     <>
-      <div>
-        <MainCarousel />
+      <div className='bg-gray-100'>
+     
+      <div className='bg-pink-300 border'>
+      <MainCarousel />
+      </div>
+    
         <div className='space-y-10 py-20 flex flex-col justify-center px-5 lg:px-10'>
           <HomeSectionCarousel data={womens} sectionName={"WOMENS"}/>
           <HomeSectionCarousel data={womens} sectionName={"MENS"}/>
