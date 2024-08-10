@@ -4,22 +4,22 @@ import { FaTwitterSquare } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-gray-700 text-white py-8">
+    <footer className="bg-black text-white py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="flex flex-col items-center md:items-start">
           <h2 className="text-2xl font-bold mb-2">ShopEase</h2>
-          <p className="text-lg text-black mb-4 text-center md:text-left">
+          <p className="text-lg text-white mb-4 text-center md:text-left">
             Your one-stop solution for personalized styling suggestions.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-white hover:text-white">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-white hover:text-white">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-white hover:text-white">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
@@ -28,7 +28,7 @@ function Footer() {
         {/* Middle Section */}
         <div className="flex flex-col items-center md:items-center mt-8 md:mt-0">
           <h3 className="text-2xl font-semibold mb-2">Quick Links</h3>
-          <ul className="text-black text-xl">
+          <ul className="text-white text-xl">
             <li className="mb-2">
               <a href="#" className="hover:text-white">Home</a>
             </li>

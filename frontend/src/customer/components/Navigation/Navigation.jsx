@@ -1153,7 +1153,7 @@ export default function Header() {
   return (
     <div className="bg-gray-700 shadow-md">
       <header>
-        <nav className="relative z-10 bg-gray-700 shadow-md">
+        <nav className="relative z-10 bg-black shadow-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               
