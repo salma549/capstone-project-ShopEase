@@ -6,6 +6,7 @@ import About from './customer/components/About/About.jsx'
 import Category from './customer/components/category/Category.jsx'
 import Product from './customer/components/Products/Product.jsx';
 import ProductDetails from './customer/components/ProductDetails/ProductDetails.jsx';
+import Cart from './customer/components/Cart/Cart.jsx'
 
  
 
@@ -15,11 +16,12 @@ const App = () => {
     <div>
       <Navigation />
       <div>
-        <HomePage />
-        {/* <Product/> */}
+        {/* <HomePage /> */}
+        <Product/>
    {/* <ProductDetails /> */}
-         <Category />
-        <About/> 
+   {/* <Cart/> */}
+         {/* <Category /> */}
+        {/* <About/>  */}
       </div>
       <Footer />
   </div>
