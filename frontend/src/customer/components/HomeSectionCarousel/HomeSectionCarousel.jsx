@@ -62,7 +62,7 @@ const HomeSectionCarousel = ({ data , sectionName }) => {
 
   const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
-  const items = data.slice(0, 10).map((item) => (
+  const items = data.slice(0, 40).map((item) => (
     <HomeSectionCard product={item} key={item.id} /> // Ensure each item has a unique key
   ));
 
