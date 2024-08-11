@@ -18,7 +18,7 @@ const Category = () => {
             muted 
             playsInline 
             className="w-full rounded-md h-auto mb-2 hover:cursor-pointer overflow-hidden shadow-lg  hover:shadow-2xl" />
-          <button className="bg-blue-500 mt-5 text-lg text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+          <button className="bg-[#9155fd] mt-5 text-lg text-white px-4 py-2 rounded-lg hover:bg-purple-500">
             Explore
           </button>
         </div>
@@ -31,7 +31,7 @@ const Category = () => {
             playsInline 
             className="w-full rounded-md h-auto mb-2  hover:cursor-pointer overflow-hidden shadow-lg  hover:shadow-2xl" 
           />
-          <button className="bg-blue-500 text-lg  text-white mt-5 px-4 py-2 rounded-lg hover:bg-blue-600">
+          <button className="bg-[#9155fd] text-lg  text-white mt-5 px-4 py-2 rounded-lg hover:bg-purple-500">
             Explore
           </button>
         </div>

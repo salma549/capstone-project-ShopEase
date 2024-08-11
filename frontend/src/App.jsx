@@ -23,7 +23,7 @@ const App = () => {
    {/* <ProductDetails /> */}
    {/* <Cart/> */}
          <Category />
-        <About/> 
+        {/* <About/>  */}
       </div>
       <Footer />
   </div>
